@@ -1,5 +1,5 @@
 using Autoencoders
-import Autoencoders: AutoUnet
+import Autoencoders: AutoUNet
 using Test
 using Random
 
@@ -8,5 +8,5 @@ x3 = rand(Float32, (256,256,3,1))
 
 
 @testset "Autoencoders.jl" begin
-    include("unet-tests.jl")
+    include("autoencoder-tests.jl")
 end

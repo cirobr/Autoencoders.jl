@@ -1,5 +1,5 @@
 @info "autoencoder tests..."
 
-modelcpu = AutoUnet()
+modelcpu = AutoUNet()
 yhat  = modelcpu(x3)
 @test size(yhat) == (256, 256, 3, 1)

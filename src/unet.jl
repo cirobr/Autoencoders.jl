@@ -55,7 +55,7 @@ function (m::autounet)(x::AbstractArray{Float32,4})
 end
 
 
-function AutoUnet(ch_in::Int=3, ch_out::Int=3;    # input/output channels
+function AutoUNet(ch_in::Int=3, ch_out::Int=3;    # input/output channels
                activation::Function = relu,    # activation function
 )
     model = autounet(ch_in, ch_out;
