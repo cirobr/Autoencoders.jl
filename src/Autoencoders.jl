@@ -14,7 +14,7 @@ import Flux:
 # models
 const defaultChannels = [64, 128, 256, 512, 1024]
 
-include("./unet.jl")
+include("./autounet.jl")
 
 
 end # module
