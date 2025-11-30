@@ -1,0 +1,13 @@
+name = "Autoencoders"
+uuid = "9dc03ea1-ba9b-4764-bb11-8f78b21dd922"
+authors = ["Ciro B Rosa <ciro.rosa@alumni.usp.br>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.12"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
